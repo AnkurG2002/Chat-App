@@ -51,8 +51,8 @@ body {
 }
 
 .chat-window {
-  width: 300px;
-  height: 420px;
+  width: 400px;
+  height: 500px;
 }
 
 .chat-window p {
@@ -74,7 +74,7 @@ body {
 }
 
 .chat-window .chat-body {
-  height: calc(450px - (45px + 70px));
+  height: calc(500px - (45px + 70px));
   border: 1px solid #263238;
   background: #fff;
 
@@ -100,7 +100,7 @@ body {
   width: auto;
   height: auto;
   min-height: 40px;
-  max-width: 120px;
+  max-width: 150px;
   background-color: #43a047;
   border-radius: 5px;
   color: white;
@@ -108,14 +108,13 @@ body {
   align-items: center;
   margin-right: 5px;
   margin-left: 5px;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding: 7px;
   overflow-wrap: break-word;
   word-break: break-word;
 }
 
 #you {
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 #you .message-content {
@@ -123,21 +122,21 @@ body {
 }
 
 #you .message-meta {
-  justify-content: flex-start;
+  justify-content: flex-end;
   margin-left: 5px;
 }
 
 #other {
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 #other .message-content {
-  justify-content: flex-end;
+  justify-content: flex-start;
   background-color: cornflowerblue;
 }
 
 #other .message-meta {
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-right: 5px;
 }
 
